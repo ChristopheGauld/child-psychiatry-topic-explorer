@@ -1,4 +1,5 @@
 .DS_Store
+*.swp
 __pycache__/
 *.py[cod]
 .packages/
@@ -9,5 +10,6 @@ build_report.py
 build_scientific_article.py
 article_results.json
 topic_prevalence_periods.png
+topic_networks_aligned.png
 *.docx
 *.pdf
