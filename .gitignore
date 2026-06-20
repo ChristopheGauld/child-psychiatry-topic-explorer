@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.packages/
+.streamlit/secrets.toml
+source_notes/
+.report_render*/
+build_report.py
+build_scientific_article.py
+article_results.json
+topic_prevalence_periods.png
+*.docx
+*.pdf

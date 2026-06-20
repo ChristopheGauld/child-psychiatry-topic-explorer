@@ -1,0 +1,201 @@
+{
+  "recommended_k": 3,
+  "selection_rule": "maximum mean within-corpus standardized UMass coherence",
+  "candidate_k": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "seed": 1234,
+  "sampling": "all eligible documents over the full historical period",
+  "per_corpus": [
+    {
+      "corpus": "Francophone",
+      "k": 2,
+      "coherence_umass": -2.416023658195512,
+      "perplexity": 1207.2494630324911,
+      "documents": 11664,
+      "vocabulary": 2500,
+      "coherence_z": 1.187502143183512,
+      "perplexity_improvement": NaN
+    },
+    {
+      "corpus": "Francophone",
+      "k": 3,
+      "coherence_umass": -2.361873932906334,
+      "perplexity": 1122.4936527702685,
+      "documents": 11664,
+      "vocabulary": 2500,
+      "coherence_z": 1.7737045083206695,
+      "perplexity_improvement": 0.07020571377958995
+    },
+    {
+      "corpus": "Francophone",
+      "k": 4,
+      "coherence_umass": -2.637959718000888,
+      "perplexity": 1116.1288558083695,
+      "documents": 11664,
+      "vocabulary": 2500,
+      "coherence_z": -1.2150851732314496,
+      "perplexity_improvement": 0.005670229801470028
+    },
+    {
+      "corpus": "Francophone",
+      "k": 5,
+      "coherence_umass": -2.593932388659968,
+      "perplexity": 1100.328072987649,
+      "documents": 11664,
+      "vocabulary": 2500,
+      "coherence_z": -0.7384636492534132,
+      "perplexity_improvement": 0.014156772973382803
+    },
+    {
+      "corpus": "Francophone",
+      "k": 6,
+      "coherence_umass": -2.5542185038374523,
+      "perplexity": 1091.9049326097947,
+      "documents": 11664,
+      "vocabulary": 2500,
+      "coherence_z": -0.30853767848591174,
+      "perplexity_improvement": 0.007655117218797636
+    },
+    {
+      "corpus": "Francophone",
+      "k": 7,
+      "coherence_umass": -2.5392500558223765,
+      "perplexity": 1099.4732764651153,
+      "documents": 11664,
+      "vocabulary": 2500,
+      "coherence_z": -0.1464954967017749,
+      "perplexity_improvement": -0.006931321243536459
+    },
+    {
+      "corpus": "Francophone",
+      "k": 8,
+      "coherence_umass": -2.576765739139967,
+      "perplexity": 1096.462409625327,
+      "documents": 11664,
+      "vocabulary": 2500,
+      "coherence_z": -0.5526246538316513,
+      "perplexity_improvement": 0.002738462956979326
+    },
+    {
+      "corpus": "Anglophone",
+      "k": 2,
+      "coherence_umass": -1.9049742754210715,
+      "perplexity": 1179.2034598945863,
+      "documents": 9572,
+      "vocabulary": 2500,
+      "coherence_z": -1.1207905467090722,
+      "perplexity_improvement": NaN
+    },
+    {
+      "corpus": "Anglophone",
+      "k": 3,
+      "coherence_umass": -1.869045322943905,
+      "perplexity": 1093.8223914932612,
+      "documents": 9572,
+      "vocabulary": 2500,
+      "coherence_z": 0.03534902909855491,
+      "perplexity_improvement": 0.07240571394605444
+    },
+    {
+      "corpus": "Anglophone",
+      "k": 4,
+      "coherence_umass": -1.913328069305836,
+      "perplexity": 1076.9783819412892,
+      "documents": 9572,
+      "vocabulary": 2500,
+      "coherence_z": -1.3896030517342075,
+      "perplexity_improvement": 0.015399218084187316
+    },
+    {
+      "corpus": "Anglophone",
+      "k": 5,
+      "coherence_umass": -1.8417071629055992,
+      "perplexity": 1049.5382261267328,
+      "documents": 9572,
+      "vocabulary": 2500,
+      "coherence_z": 0.9150498433690127,
+      "perplexity_improvement": 0.025478836227979418
+    },
+    {
+      "corpus": "Anglophone",
+      "k": 6,
+      "coherence_umass": -1.8565350422390425,
+      "perplexity": 1011.7759317022877,
+      "documents": 9572,
+      "vocabulary": 2500,
+      "coherence_z": 0.43791101964214185,
+      "perplexity_improvement": 0.035979913341322334
+    },
+    {
+      "corpus": "Anglophone",
+      "k": 7,
+      "coherence_umass": -1.8849517143853318,
+      "perplexity": 997.1786523257389,
+      "documents": 9572,
+      "vocabulary": 2500,
+      "coherence_z": -0.4764946898467295,
+      "perplexity_improvement": 0.014427383493882173
+    },
+    {
+      "corpus": "Anglophone",
+      "k": 8,
+      "coherence_umass": -1.8204653808538176,
+      "perplexity": 980.9431153822565,
+      "documents": 9572,
+      "vocabulary": 2500,
+      "coherence_z": 1.5985783961803497,
+      "perplexity_improvement": 0.016281472638444483
+    }
+  ],
+  "common": [
+    {
+      "k": 2,
+      "mean_coherence_z": 0.0333557982372199,
+      "mean_coherence": -2.1604989668082917,
+      "mean_perplexity": 1193.2264614635387
+    },
+    {
+      "k": 3,
+      "mean_coherence_z": 0.9045267687096122,
+      "mean_coherence": -2.1154596279251194,
+      "mean_perplexity": 1108.158022131765
+    },
+    {
+      "k": 4,
+      "mean_coherence_z": -1.3023441124828286,
+      "mean_coherence": -2.275643893653362,
+      "mean_perplexity": 1096.5536188748292
+    },
+    {
+      "k": 5,
+      "mean_coherence_z": 0.08829309705779975,
+      "mean_coherence": -2.2178197757827833,
+      "mean_perplexity": 1074.933149557191
+    },
+    {
+      "k": 6,
+      "mean_coherence_z": 0.06468667057811506,
+      "mean_coherence": -2.2053767730382474,
+      "mean_perplexity": 1051.8404321560413
+    },
+    {
+      "k": 7,
+      "mean_coherence_z": -0.3114950932742522,
+      "mean_coherence": -2.212100885103854,
+      "mean_perplexity": 1048.325964395427
+    },
+    {
+      "k": 8,
+      "mean_coherence_z": 0.5229768711743492,
+      "mean_coherence": -2.198615559996892,
+      "mean_perplexity": 1038.7027625037917
+    }
+  ]
+}

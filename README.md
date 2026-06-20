@@ -1,0 +1,36 @@
+# Child Psychiatry Topic Explorer
+
+Streamlit application for comparing the annual evolution of topics in the
+francophone and anglophone child-psychiatry literature.
+
+## Run
+
+```bash
+python3 -m pip install -r requirements.txt
+streamlit run app.py
+```
+
+The repository contains a cleaned, compressed historical corpus so the cloud
+deployment is self-contained. The application can also query PubMed through
+NCBI E-utilities or accept additional RIS files uploaded by the user. Local
+source discovery remains available when the original RIS exports are present.
+
+## Reproducibility
+
+- Search equations are stored in `config.py`.
+- Random seed: 1234 (matching the supplied R code).
+- Default number of topics: 3. This was selected over k=2–8 using the maximum
+  mean within-corpus standardized UMass coherence across both full-period
+  corpora and is supported by the main perplexity elbow. The original R value
+  (k=4) remains available through the slider.
+- Topic models are fitted independently by linguistic corpus.
+- Topic prevalence is the annual mean document-topic weight.
+
+Pascal/Francis is supported through historical RIS imports because no stable
+public programmatic API is available for the legacy database.
+
+## Streamlit Community Cloud
+
+Deploy `app.py` from the repository root with the standard Python runtime.
+No secret is required for the bundled historical analysis; an optional NCBI
+API key can be configured separately for higher PubMed request limits.
