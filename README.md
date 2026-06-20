@@ -3,12 +3,7 @@
 Streamlit application for comparing the annual evolution of topics in the
 francophone and anglophone child-psychiatry literature.
 
-## Run
-
-```bash
-python3 -m pip install -r requirements.txt
-streamlit run app.py
-```
+## Run on: https://child-psychiatry-topic-explore-6j3jejfsuqfz3taiy49jpt.streamlit.app
 
 The repository contains a cleaned, compressed historical corpus so the cloud
 deployment is self-contained. The application can also query PubMed through
