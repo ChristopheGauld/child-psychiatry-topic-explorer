@@ -1,4 +1,5 @@
 from pathlib import Path
+from io import StringIO
 import sys
 
 APP_DIR = Path(__file__).resolve().parent
@@ -26,7 +27,7 @@ def historical_data():
 
 @st.cache_resource(show_spinner="Fitting the topic model…")
 def cached_model(serialized: str, label: str, topics: int, max_docs: int):
-    frame = pd.read_json(serialized, orient="split")
+    frame = pd.read_json(StringIO(serialized), orient="split")
     return fit_topics(frame, n_topics=topics, max_documents=max_docs)
 
 
