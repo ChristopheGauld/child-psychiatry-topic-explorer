@@ -75,8 +75,9 @@ with tabs[0]:
                         st.write({"documents modeled": len(model["documents"]),
                                   "vocabulary": model["vocabulary_size"],
                                   "perplexity": round(model["perplexity"], 1)})
-                except Exception as exc:
-                    st.error(f"Modeling failed: {exc}")
+                import traceback
+                except Exception:
+                    st.code(traceback.format_exc())
 
 with tabs[1]:
     st.subheader("Loaded corpus")
