@@ -1,14 +1,12 @@
 # Child Psychiatry Topic Explorer
 
-Streamlit application for comparing the annual evolution of topics in the
+Application for comparing the annual evolution of topics in the
 francophone and anglophone child-psychiatry literature.
 
 ## Run on: https://child-psychiatry-topic-explore-6j3jejfsuqfz3taiy49jpt.streamlit.app
 
-The repository contains a cleaned, compressed historical corpus so the cloud
-deployment is self-contained. The application can also query PubMed through
-NCBI E-utilities or accept additional RIS files uploaded by the user. Local
-source discovery remains available when the original RIS exports are present.
+1) The repository contains a cleaned, compressed historical corpus so the cloud deployment is self-contained
+2) The application can also query PubMed through NCBI E-utilities or accept additional RIS files uploaded by the user. Local source discovery remains available when the original RIS exports are present.
 
 ## Reproducibility
 
@@ -33,8 +31,3 @@ source discovery remains available when the original RIS exports are present.
 Pascal/Francis is supported through historical RIS imports because no stable
 public programmatic API is available for the legacy database.
 
-## Streamlit Community Cloud
-
-Deploy `app.py` from the repository root with the standard Python runtime.
-No secret is required for the bundled historical analysis; an optional NCBI
-API key can be configured separately for higher PubMed request limits.
